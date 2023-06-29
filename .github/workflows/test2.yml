@@ -5,8 +5,8 @@ on:
   pull_request:
     branches: [ master ]
     paths:
-    - 'Tests/UnitTest1.cs'
-    - 'Tests/Tests.csproj'
+    - 'QuadraticEquationTesting/Program.cs'
+    - 'QuadraticEquationTesting/QuadraticEquationTesting.csproj'
 
 env:
   DOTNET_VERSION: '6.0.401' # The .NET SDK version to use
